@@ -15,6 +15,7 @@ The information for how to use the front-end actions are detailed on the individ
 <br><img src="assets/fibscreenshot.jpg" style="width:300px; height auto;">
 <br><img src="assets/sortscreenshot.jpg" style="width:300px; height auto;">
 <br><img src="assets/searchscreenshot.jpg" style="width:300px; height auto;">
+<br><img src="assets/searchscreenshot2.jpg" style="width:300px; height auto;">
 
 To see the code making it work you can open the script.js files in each of the folders for the different algorithms.
 
