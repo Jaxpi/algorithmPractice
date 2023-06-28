@@ -53,6 +53,24 @@ function quickSort(arr) {
   document.getElementById("quickArray").innerHTML = quickSort(arr).join(", ");
 }
 
+//WORD BUBBLE SORT
+
+function wordBubbleSort(arr) {
+  var userData = document.getElementById("userWordBubbleData").value;
+  var arr = userData.split(", ");
+  var temp = 0;
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr.length - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+  document.getElementById("wordBubbleArray").innerHTML = arr.join(", ");
+}
+
 document
   .getElementById("userBubbleData")
   .addEventListener("keyup", function (event) {
@@ -68,5 +86,14 @@ document
     event.preventDefault();
     if (event.key === "Enter") {
       document.getElementById("quickButton").click();
+    }
+  });
+
+  document
+  .getElementById("userWordBubbleData")
+  .addEventListener("keyup", function (event) {
+    event.preventDefault();
+    if (event.key === "Enter") {
+      document.getElementById("wordBubbleButton").click();
     }
   });
