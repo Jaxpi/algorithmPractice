@@ -1,0 +1,44 @@
+# Algorithm Practice
+
+https://jaxpi.github.io/algorithmPractice/
+<br><img src="assets/mainscreenshot.jpg" style="width:300px; height auto;">
+
+
+## Description
+
+This project highlights simple algorithm codes for fibonacci sequence, sorting, and searching. Users can test out the alrogithms using the front-end interface and then look into the code to see how it works in the back-end.
+
+
+## Usage
+
+The information for how to use the front-end actions are detailed on the individual pages.<br>
+<br><img src="assets/fibscreenshot.jpg" style="width:300px; height auto;">
+<br><img src="assets/sortscreenshot.jpg" style="width:300px; height auto;">
+<br><img src="assets/searchscreenshot.jpg" style="width:300px; height auto;">
+
+To see the code making it work you can open the script.js files in each of the folders for the different algorithms.
+
+
+## License
+
+MIT License
+
+Copyright (c) 2023 Jackson Impellizeri
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
